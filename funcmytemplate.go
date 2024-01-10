@@ -10,6 +10,7 @@ type funcmytemplate interface {
 	Add() template.FuncMap
 }
 
+// Add Adds the functions here
 func Add() template.FuncMap {
 	funcdTemplate := template.FuncMap{
 		"CurrentDate": examples.CurrentDate,
